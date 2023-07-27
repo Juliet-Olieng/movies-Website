@@ -1,0 +1,53 @@
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+    margin-top: 5%;
+}
+.images{
+    width: 90%;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.search-wrapper{
+    margin-left: 30%;
+    margin-top: 2%;
+   
+}
+input{
+    padding: 15px 70px;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgb(204, 204, 21); 
+}
+.Nav{
+    display: flex;
+    gap: 5%;
+    background-color: black;
+    color: white;
+    padding: 2%;
+
+}
+span{
+    color: rgb(204, 204, 21);
+}
+ul li{
+    list-style: none;
+    
+
+}
+ul li a{
+    color: rgb(204, 204, 21);
+}
+button{
+    background-color:  rgb(204, 204, 21); 
+    color: white;
+    padding: 2px 25px;
+    border-radius: 15px;
+
+}
+

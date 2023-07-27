@@ -1,0 +1,18 @@
+.images{
+    width: 90%;
+    overflow: hidden;
+   
+    
+}
+img{
+    width: 80%;
+    height: 400px;
+    /* object-fit: cover; */
+}
+.items{
+    border: solid;
+    padding: 10%;
+    /* align-items: center; */
+    margin: 5%;
+
+}
