@@ -2,14 +2,16 @@
 import './App.css';
 import MoviesList from './components/movieList';
 import Carousels from './components/movieList/carousel'
+import Details from './components/details/details';
 
 function App() {
   return (
     <div>
      
-      
-      <MoviesList/>\
-      <Carousels/>
+     <Carousels/>
+      <MoviesList/>
+      <Details/>
+     
       
     </div>
 

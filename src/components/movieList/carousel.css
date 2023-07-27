@@ -65,4 +65,9 @@
 
 .carousel .carousel .control-dots .dot.selected {
   background-color: #007bff;
+
+}
+.indicator{
+  padding: 0;
+  margin: 0;
 }

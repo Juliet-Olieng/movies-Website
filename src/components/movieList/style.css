@@ -7,6 +7,7 @@
 .images{
     width: 90%;
     overflow: hidden;
+    padding: 10%;
 }
 img{
     width: 100%;
@@ -27,8 +28,9 @@ input{
 .Nav{
     display: flex;
     gap: 5%;
-    background-color: black;
-    color: white;
+    background-color: rgb(29, 26, 26);
+    color: rgb(204, 204, 21);
+    align-items: center;
     padding: 2%;
 
 }
@@ -46,7 +48,7 @@ ul li a{
 button{
     background-color:  rgb(204, 204, 21); 
     color: white;
-    padding: 2px 25px;
+    padding: 15px 25px;
     border-radius: 15px;
 
 }

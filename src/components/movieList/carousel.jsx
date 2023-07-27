@@ -19,7 +19,7 @@ const Carousels = () => {
     const fetchImages = async () => {
       try {
         const movies = await getMovies();
-        setImages(movies.results.slice(0, 5));
+        setImages(movies.results.slice(0, 4));
         console.log(movies);
       } catch (error) {
         console.error("Error occurred while fetching:", error.message);
@@ -30,6 +30,7 @@ const Carousels = () => {
 
   const imageSlides = images.map((image) => (
     <div className="indicator" key={image.alt}>
+      
       <img src={`${IMAGE_BASE_URL}${image.poster_path}`} alt={image.title} />
       <p>{image.title}</p>
       <p>{image.overview}</p>
