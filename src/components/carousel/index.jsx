@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 // import { Carousel } from "react-responsive-carousel";
 import { getMovies } from "../../utils/utilities";
 import {Carousel} from "react-responsive-carousel"
-import './carousel.css'
+import './style.css'
 
 const IMAGE_BASE_URL = process.env.REACT_APP_IMAGE_BASE_URL;
 
@@ -29,7 +29,7 @@ const Carousels = () => {
   }, []);
 
   const imageSlides = images.map((image) => (
-    <div className="indicator" key={image.alt}>
+    <div className="indicator" key={image.id}>
       
       <img src={`${IMAGE_BASE_URL}${image.poster_path}`} alt={image.title} />
       <p>{image.title}</p>
@@ -56,3 +56,4 @@ const Carousels = () => {
 };
 
 export default Carousels;
+

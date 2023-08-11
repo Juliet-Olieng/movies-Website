@@ -1,20 +1,20 @@
-
+import { BrowserRouter, Form, Route, Routes } from 'react-router-dom';
 import './App.css';
-import MoviesList from './components/movieList';
-import Carousels from './components/movieList/carousel'
-import Details from './components/details/details';
+
+import React from 'react';
+import MoviesList from  './components/movieList'
 
 function App() {
   return (
     <div>
-     
-     <Carousels/>
-      <MoviesList/>
-      <Details/>
-     
-      
+    
+      <BrowserRouter>
+        <Routes>      
+        <Route path="" element={<MoviesList/>} />
+       
+        </Routes>
+      </BrowserRouter>
     </div>
-
   );
 }
 
